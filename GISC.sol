@@ -1,6 +1,6 @@
 pragma solidity ^0.4.16;
 
-contract AIDT_Chine {
+contract GISC_Chine {
     address private owner;
     string private token = "103c025ce27a4834982b1261a1060b0b";
 
@@ -14,7 +14,7 @@ contract AIDT_Chine {
 
     event Transfer(address indexed from, address indexed to, uint256 value);
 
-    function AIDT_Chine(
+    function GISC_Chine(
         uint256 initialSupply,
         string tokenName,
         string tokenSymbol
